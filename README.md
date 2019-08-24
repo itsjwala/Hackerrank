@@ -2,7 +2,4 @@
 
 practice problems of hackerrank
 
-> The list may be incomplete
-
-
-
+navigate to particular track and `ctrl` + `f` to find the problem
