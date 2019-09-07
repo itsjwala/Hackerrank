@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ "$1" ]; then
+if [ "$*" ]; then
 	git add --all
-	git commit -m "$1"
+	git commit -m "$*"
 	git push -u origin master
 else
 	echo "Enter commit message"
