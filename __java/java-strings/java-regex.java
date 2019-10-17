@@ -1,8 +1,9 @@
 
-
 class MyRegex{
+    String zeroTo255 = "(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])";
 
-    String pattern = "^\\d{1,3}.\\d{1,3}.\\d{1,3}.\\d{1,3}{7,15}$";
+    String pattern=zeroTo255+"\\."+zeroTo255+"\\."+zeroTo255+"\\."+zeroTo255;
 }
+//Write your code here
 
 
